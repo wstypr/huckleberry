@@ -9,22 +9,16 @@ body {
   padding: 0;
 }
 
-header {
-  padding-top: 96px;
-  padding-bottom: 64px;
-  border-bottom: 8px solid hsla(0, 0%, 60%, 1);
-}
-
-main {
-  padding-top: 72px;
-  padding-bottom: 64px;
-  background-color: hsla(0, 0%, 40%, 1);
-}
-
 h1 {
+  margin: 0px;
   font-size: 2rem;
   font-weight: 800;
-  margin-bottom: 64px;
+}
+
+h2 {
+  margin: 0px;
+  font-size: 1.5rem;
+  font-weight: 800;
 }
 
 p {
@@ -32,40 +26,44 @@ p {
   line-height: 150%;
 }
 
-p strong {
-  font-weight: 150%;
-  color: hsla(160, 100%, 30%, 1);
-}
-
-/* Add styles here! */
-.max-width-wrapper {
-  max-width: 800px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.intro-chunk {
-  max-width: 424;
-  padding-inline-start: 24px;
-}
-
-.card {
-  padding: 24px;
-  padding-top: 8px;
-  background-color: white;
+header {
+  padding: 96px 0 64px 0;
   border-bottom: 8px solid hsla(0, 0%, 60%, 1);
 }
 
-.card h2 {
-  display: inline-block;
-  margin-top: 0;
-  margin-bottom: 0;
+main {
+  padding: 72px 0;
+  background-color: hsla(0, 0%, 40%, 1);
+}
+
+strong {
+  color: hsla(160, 100%, 30%, 1);
   font-weight: 800;
-  background-color: hsla(45, 100%, 50%, 1);
-  padding: 16px 32px;
-  border-bottom: 8px solid hsla(45, 100%, 40%, 1);
+}
+
+.max-width-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.intro-chunk,
+.card {
+  padding: 0 24px 24px;
+}
+
+.intro-chunk {
+  max-width: 415px;
+}
+
+.card {
+  padding-top: 8px;
+  border-bottom: 8px solid hsla(0, 0%, 60%, 1);
+  background-color: white;
 }
 
 .indented-heading {
   margin-left: -32px;
+  padding: 12px 24px 12px 32px;
+  border-bottom: 8px solid hsla(45, 100%, 40%, 1);
+  background-color: hsla(45, 100%, 50%, 1);
 }
